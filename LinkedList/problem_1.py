@@ -8,6 +8,7 @@ Created on Wed Jan  8 15:31:55 2020
 from node import Node
 from node import print_list
 
+# This problem 
 def remove_duplicate(head):
     hashset=set()
     prev=None

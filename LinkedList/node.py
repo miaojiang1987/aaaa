@@ -15,9 +15,20 @@ def print_list(head):
     cur=head
     result=""
     while cur:
-        cur.next=        
+        result+=str(cur.val)+"->"
+        cur=cur.next
+    result+="None"
+    print(result)
+    return result
         
 
+head=Node(-1)
+cur=head
+for i in range(5):
+    cur.next=Node(i)
+    cur=cur.next
+
+print_list(head)
 
 #head=Node(5)
 #node1=Node(6)

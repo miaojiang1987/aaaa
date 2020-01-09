@@ -21,7 +21,7 @@ def print_list(head):
     print(result)
     return result
         
-
+'''
 head=Node(-1)
 cur=head
 for i in range(5):
@@ -29,7 +29,7 @@ for i in range(5):
     cur=cur.next
 
 print_list(head)
-
+'''
 #head=Node(5)
 #node1=Node(6)
 #head.next=node1
